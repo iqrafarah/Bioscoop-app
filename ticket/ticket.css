@@ -1,0 +1,72 @@
+.film-image {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+.film-image img {
+  width: 90%;
+  height: 230px;
+  border-radius: 10px;
+  object-fit: cover;
+  object-position: top center;
+  margin-bottom: 10px;
+}
+.film-info {
+  display: flex;
+  flex-direction: column;
+}
+.film-info h1 {
+  color: black;
+}
+.film-container {
+  background-color: #fff;
+  height: 80vh;
+  color: black;
+  width: 90vw;
+  margin: auto;
+  border-radius: 20px;
+}
+.ticket-h1 {
+  color: #fff;
+  width: 90vw;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+.film-container p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.film-container h1 {
+  text-align: center;
+}
+.details-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  width: 90vw;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.detail-label {
+  font-weight: 300;
+}
+.film-details {
+  display: flex;
+  justify-content: center;
+}
+.barcode {
+  display: flex;
+  justify-content: center;
+  font-family: "Libre Barcode 39";
+  font-size: 22px;
+  padding-top: 80px;
+  text-align: center;
+}
+.dotted-line {
+  height: 1px;
+  width: 100%;
+  border-top: 2px dotted #000;
+  margin-top: 30px;
+}

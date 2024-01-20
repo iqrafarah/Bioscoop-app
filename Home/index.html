@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Box - Home</title>
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="/Home/home.css" />
+    <script src="../main.js"></script>
+    <script src="../Rest/rest.js" defer></script>
+    <script src="home.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="film-slider">
+        <img
+          id="slider-img"
+          src="https://images.pathe-thuis.nl/33460_1920x1080.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <!-- films slider -->
+    <div class="films votable">
+      <div class="titles">
+        <h4>Movie Night</h4>
+        <a href="/stemmen/"><span>See all</span></a>
+      </div>
+      <div class="items"></div>
+    </div>
+    <!-- films slider 2 -->
+    <div class="films">
+      <div class="titles">
+        <h4>Trending Now</h4>
+        <a href="/search/"><span>See all</span></a>
+      </div>
+      <div class="items"></div>
+    </div>
+    <div class="vote-container">
+      <div class="vote-item">
+        <div class="vote-thumbnail">
+          <img src="../assets/vote.png" alt="" />
+        </div>
+        <div class="vote-content">
+          <h4>
+            Don't forget to <br />
+            vote!
+          </h4>
+          <a href="/stemmen/"><button class="vote-btn">Vote</button></a>
+        </div>
+      </div>
+    </div>
+    <!-- films slider 3 -->
+    <div class="films">
+      <div class="titles">
+        <h4>New Release</h4>
+        <a href="/search/"><span>See all</span></a>
+      </div>
+      <div class="items"></div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+.film-container {
+  padding: 0 20px;
+}
+.vote-item {
+  display: flex;
+}
+
+.vote-item img {
+  width: 130px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.fa-thumbs-up {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.likes {
+  display: flex;
+  flex-direction: row;
+  height: 20px;
+}
+.vote-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px 0;
+  width: 60%;
+}
+.vote-info p {
+  line-height: 1.2em;
+  height: 3.5em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+}
+.vote-btns {
+  display: flex;
+  gap: 10px;
+}
+.vote-btns button:first-child {
+  background-color: #545454;
+  color: white;
+}
+.vote-btns button {
+  width: 110px;
+  line-height: 35px;
+}
+
+.vote-btns button:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
+}
+
+.vote-h2 {
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.vote-p {
+  margin-bottom: 30px;
+}

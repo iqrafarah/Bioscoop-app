@@ -1,0 +1,59 @@
+.film-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+  gap: 10px 0;
+}
+.film-info {
+  width: 100%;
+}
+
+.film-info iframe {
+  width: 100%;
+  height: 300px;
+  object-fit: cover !important;
+  object-position: top center;
+  margin-bottom: 10px;
+  border: 1px solid #565656;
+}
+
+.film-container h1 {
+  color: white;
+  font-size: 25px;
+}
+.genres {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 20px 0;
+}
+.genres span {
+  background-color: #262626;
+  color: white;
+  padding: 12px 18px;
+  border-radius: 40px;
+}
+
+.film-container button {
+  background-color: #e50914;
+  color: white;
+  width: 100%;
+  font-size: 22px;
+}
+.description h3 {
+  font-size: 25px;
+  margin: 20px 0;
+  color: white;
+  font-weight: 600;
+}
+.description p {
+  line-height: 1.5;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.ratings p {
+  margin: 50px 0;
+  font-size: 18px;
+}

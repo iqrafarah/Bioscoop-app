@@ -1,0 +1,73 @@
+.payment-form {
+    width: 80vw;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 100px;
+  }
+  
+  .payment-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .payment-form label {
+    margin-top: 10px;
+  }
+  .payment-form input {
+    margin-top: 5px;
+    color: #ffff;
+  }
+  .payment-form input,
+  .payment-form textarea {
+    padding: 10px;
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+  }
+  .payment-form input:focus,
+  .payment-form textarea:focus {
+    outline: none;
+    border: 1px solid #fff;
+  }
+  #address {
+    color: white;
+}
+  .payment-form input[type="submit"] {
+    margin-top: 20px;
+    background-color: #e50914;
+    color: #ffff;
+    border-radius: 40px;
+    border: none;
+  }
+  .flex-container {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+  }
+  
+  .flex-container input {
+    flex: 1;
+  
+    width: 40vw;
+  }
+  
+  .flex-container input:last-child {
+    margin-right: 0;
+  }
+  .payment-form img{
+    width: 60px;
+    object-fit: contain;
+  }
+  .credit-card-img {
+   margin-top: 20px;
+   width: 80vw;
+}
+
+.card-images {
+    display: flex;
+    gap: 30px;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}

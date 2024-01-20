@@ -1,0 +1,72 @@
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.formContainer h1 {
+  color: white;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+form input {
+  padding-left: 25px;
+  line-height: 4rem;
+  width: 350px;
+  border-radius: 50px;
+  background-color: #1c1c1c;
+  border: none;
+  font-size: 20px;
+  color: white;
+}
+form input:focus {
+  outline: white;
+}
+form input::placeholder {
+  color: white !important;
+}
+
+form button {
+  background-color: #e50914;
+  color: white;
+  margin-top: 20px;
+}
+
+.formContainer img {
+  width: 120px;
+}
+
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
+
+.success {
+  color: green;
+  font-size: 18px;
+}
+
+.verify {
+  margin-top: 300px;
+}
+.verify h2 {
+  text-align: center;
+}
+
+.settings-p {
+  text-align: center;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+#username {
+  text-transform: capitalize;
+}

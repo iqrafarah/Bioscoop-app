@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Box - Reservation</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="reserveren.css" />
+    <script src="../Rest/rest.js" defer></script>
+    <script src="../main.js" defer></script>
+    <script src="reserveren.js" defer></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box-container">
+        <div class="box selected">
+          <div class="color-box"></div>
+          <p>SELECTED</p>
+        </div>
+        <div class="box available">
+          <div class="color-box"></div>
+          <p>AVAILABLE</p>
+        </div>
+        <div class="box booked">
+          <div class="color-box"><i class="fas fa-user"></i></div>
+          <p>BOOKED</p>
+        </div>
+      </div>
+      <div class="screen">SCREEN</div>
+      <div class="seat-container"></div>
+      <div class="reservation-box">
+        <div class="date-box">
+          <div class="date"><p></p></div>
+          <div class="date"><p></p></div>
+          <div class="date"><p></p></div>
+          <div class="date"><p></p></div>
+        </div>
+        <div class="time-box">
+          <div class="time"><p></p></div>
+          <div class="time"><p></p></div>
+          <div class="time"><p></p></div>
+          <div class="time"><p></p></div>
+        </div>
+        <div class="price-reservation">
+          <div class="total-price">
+            <p>Total Price</p>
+            <p>€12,50</p>
+          </div>
+          <div>
+            <button onclick="makeReservation()" id="reservation-btn">
+              Get reservation
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

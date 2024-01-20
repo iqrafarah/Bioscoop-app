@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Box - Admin</title>
+    <link rel="stylesheet" href="../global.css" />
+    <link rel="stylesheet" href="admin.css" />
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
+    <script src="../Rest/rest.js"></script>
+    <script type="module" src="admin.js" defer></script>
+    <script src="../main.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card-container">
+        <div class="card-items">
+          <div class="card-one">
+            <div class="card-title totalMovie"></div>
+            <div class="card-body">Total movies</div>
+          </div>
+          <div class="card-one">
+            <div class="card-title totalVotes"></div>
+            <div class="card-body">Total votes</div>
+          </div>
+          <div class="card-one total-sale">
+            <div class="card-title">5</div>
+            <div class="card-body">Total sale</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- zoekfunctie -->
+      <div class="search-container">
+        <input id="searchTerm" type="search" placeholder="Search..." />
+        <i class="fas fa-search" id="searchIcon"></i>
+      </div>
+
+      <div class="add-movie">
+        <button id="addBtn">Add Movie</button>
+      </div>
+
+      <div class="film-container"></div>
+  </body>
+</html>

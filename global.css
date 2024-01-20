@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+h1 {
+  color: #e50914;
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  line-height: 50px;
+  width: 160px;
+  border: none;
+  border-radius: 40px;
+}
+button:hover {
+  background-color: transparent;
+  border: 2px solid #e50914;
+  color: #e50914;
+}
+.gray {
+  background-color: #3c3c3c;
+  color: white;
+}
+.gray:hover {
+  background-color: transparent;
+  border: 2px solid #3c3c3c;
+  color: white;
+}
+.topnav {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.topnav #myLinks {
+  height: 100vh;
+  padding: 0 20px;
+}
+
+.topnav a {
+  color: #919191;
+  padding: 14px 16px;
+  font-size: 17px;
+  display: flex;
+  gap: 20px;
+}
+
+.topnav a.icon {
+  color: #fff;
+}
+
+#profile-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+#profile-background i {
+  height: 80px;
+  width: 80px;
+}
+.topnav #profile-background a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.topnav #profile-background i {
+  color: #80a291;
+  font-size: 50px;
+  margin-right: 5px;
+}
+#profile-background .fa-user {
+  background-color: #b4d1bb;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider {
+  height: 1px;
+  background-color: #4f4f4f;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.logo-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.menu-icon {
+  width: 30px;
+}
+.no-scroll {
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+}
+
+.alert {
+  background-color: #1e1e1e;
+  height: 350px;
+  width: 80%;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  padding: 20px;
+}
+.alert-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  height: 100%;
+  text-align: center;
+  gap: 20px;
+}
+
+.alert-content img {
+  width: 75px;
+  object-fit: cover;
+}
+
+.username {
+  text-transform: capitalize;
+}
